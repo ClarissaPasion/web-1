@@ -1,0 +1,39 @@
+body {
+    background-color: blanchedalmond;
+}
+
+h1 { color:darkolivegreen; font-size:70px;background-color:#ffdaa4
+    
+}
+
+h2 {
+    color:darkred; font-size:50px;
+}
+
+ul {
+    color:darkred; font-size: 30px; border-style:dotted; border-color:darkolivegreen
+}
+
+p {
+    color:#eba804; font-size: 30px;
+}
+
+hr {
+    border-color:darkolivegreen; 
+}
+
+/* unvisited link */
+a:link {
+  color: darkolivegreen;
+}
+
+/* visited link */
+a:visited {
+  color: darkred;
+}
+
+/* mouse over link */
+a:hover {
+  color: #eba804;
+}
+
