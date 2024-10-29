@@ -1,0 +1,128 @@
+body {background-color:deeppink }
+
+@font-face {
+    font-family: "chakra petch";
+    src: url(../chackra-petch/chakrapetch-regular.ttf); 
+}
+
+@font-face {
+    font-family: "dyna puff";
+    src: url(../fonts/dyna-puff/dynapuff-variablefont-wdth-wght.ttf);
+}
+
+@font-face {
+    font-family: "neucha";
+    src: url(../fonts/neucha/neucha-regular.ttf);
+}
+
+@font-face {
+    font-family: "orbitron";
+    src: url(../fonts/orbitron/orbitron-variablefont_wght.ttf);
+}
+
+@font-face {
+    font-family: "pacifico";
+    src: url(../fonts/pt-serif/pacifico-regular.ttf);
+}
+
+@font-face {
+    font-family: "pirata one";
+    src: url(../fonts/pirata-one/pirataone-regular.ttf);
+}
+
+@font-face {
+    font-family: "righteous";
+    src: url(../fonts/righteous/righteous-regular.ttf);
+}
+
+@font-face {
+    font-family: "shadows into light";
+    src: url(../fonts/shadows-into-light/shadowsintolight-regular.ttf);
+}
+
+@font-face {
+    font-family: "silkscreen";
+    src: url(../fonts/silkscreen/silkscreen-regular.ttf);
+}
+
+.type-wrapper {background-color:white}
+
+.type2,.type3,.type4,.type5,.type6,.type7 {color:darkorchid}
+
+
+
+.type1 { 
+    background-color: aqua;
+    font-family: "silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5em;
+    color:black;
+}
+
+.type2 {
+    font-family: "pirata one";
+    text-align-last: center;
+    font-size: 2em;
+    line-height: 2;
+       
+}
+
+.type3 {
+    font-family: "dyna puff", system-ui;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    letter-spacing: 20px;
+    line-height: 2;
+    font-size: 1.5em
+
+}
+
+.type4 {
+    font-family: "orbitron";
+    line-height: 0;
+    font-size: 1.5em
+}
+
+.type5 {
+    font-family: "orbitron";
+    line-height: 0;
+    font-size: 1.5em
+}
+
+.type6 {
+    font-family: "pacifico";
+    font-size: 3em
+}
+
+.type7 {
+    font-family: "neucha";
+    font-weight: 1000;
+    font-size: 2em
+}
+
+.type8 {
+    font-family: "righteous";
+    line-height: 0;
+    font-size: 2em;
+    font-style: italic;
+}
+
+.type9 {
+    font-family: "shadows into light";
+    line-height: 1;
+}
+
+.type10 {
+  font-family: "chakra petch", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+a {
+    font-family:"Impact";
+    color:white;
+    font-size: 1.5em
+}
