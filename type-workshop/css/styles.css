@@ -81,13 +81,19 @@ body {background-color:deeppink }
 }
 
 .type4 {
-    font-family: "orbitron";
+    font-family: "orbitron", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
     line-height: 0;
     font-size: 1.5em
 }
 
 .type5 {
-    font-family: "orbitron";
+    font-family: "orbitron", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
     line-height: 0;
     font-size: 1.5em
 }
