@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header
+{
+    background-color: white;
+    display: flex;
+    padding: 40px 60px;
+    align-items: center;
+}
+
+.logo1
+{
+    width: 127px;
+    height: 40px;
+}
+
+.topleft
+{
+    width: 100%
+}
+
+.topright
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+    width: 100%;
+}
+
+.banner
+{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    height: 548px;
+    padding: 0 16px;
+    background-image: url(../assets/hero-bg.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-family: "Aoboshi One", serif;
+    margin-bottom: 30px;
+}
+
+h1
+{
+    font-size: 5em;
+    font-weight: normal;
+}
+
+h2
+{
+    font-size: xx-larger;
+    font-weight: normal;
+}
+
+h3
+{
+    font-size: large;
+    font-weight: 100;
+}
+
+.shopnow
+{
+    padding:8px 24px;
+    background-color:#eabc28;
+}
+
+.shoplink1
+{
+    color: #000;
+    text-decoration: none;
+    font-size: larger;
+    font-family: "Inter", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.divider
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 200px;
+}
+
+.newarrivals
+{
+    color: black;
+    font-family: "Aoboshi One", serif;
+    font-size: xx-large;
+}
+
+.viewall
+{
+    color: black;
+    font-family: "inter", serif;
+    font-size: x-large;
+}
+
+.mainsection
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 200px;
+}
+
+.groups
+{
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+    width: min-content;
+    padding-bottom: 50px;
+}
+
+.product
+{
+    color: black;
+    font-family: "inter", serif;
+    font-size: large;
+}
+
+.photo
+{
+    padding-bottom: 10px;
+}
+
+.price
+{
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    font-family: "Aoboshi One", serif;
+    font-size: small;
+    font-weight: 500;
+}
+
+.banner2
+{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: left;
+    background-image: url(../assets/sale-bg.jpg);
+    background-size:cover;
+    height: 380px;
+    width: 1118px;
+    text-align: left;
+    justify-content: center;
+    padding: 50px;
+    margin: 50px auto;
+}
+
+.shopnow2
+{
+    width: max-content;
+    height: 20px;
+    padding:8px 24px;
+    margin: 15px 15px 15px 0;
+    background-color: black;
+    align-items: center;
+   
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+}
+
+h4
+{
+    font-family: "Aoboshi One", serif;
+    font-size: xx-large;
+    font-weight:normal;
+}
+
+h5
+{
+    font-family: "Inter", serif;
+    font-size:x-large;
+    font-weight: normal;
+}
+
+.arrow
+{
+    height: 70%;
+}
+
+.shoplink
+{
+    color:#eabc28;
+    text-decoration: none;
+    font-size: larger
+}
+
+footer
+{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 60px;
+    align-items: center;
+}
+.logo2
+{
+    line-height: 30px;
+}
+
+.bottomsections
+{
+    display: flex;
+}
+
+.column
+{
+    display: flex;
+    flex-direction: column;
+    line-height: 25px; 
+}
+
+.listtitle
+{
+    color: white;
+    font-size: medium;
+    font-family: "Inter", serif;
+    font-weight: 600;
+    width: max-content;
+    padding: 20px 50px 20px 0;
+}
+
+.bottomlinks
+{
+    color: white;
+    text-decoration: none;
+    font-size: small;
+    font-family: "inter", serif;
+    font-weight: 300;
+}
+
+.circles
+{
+    padding: 5px;
+}
