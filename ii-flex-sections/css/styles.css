@@ -1,0 +1,417 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* font-family: "Manrope", sans-serif; */
+
+header
+{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 20px 50px;
+    justify-content: space-between;
+    font-family: "Manrope", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+nav
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+h4
+{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.hero-section
+{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 120px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero1
+{
+    font-family: "Manrope", sans-serif;
+    font-size: 42px;
+    font-weight: normal;
+}
+
+.hero2
+{
+    font-family: "Manrope", sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.herobutton
+{
+    background-color: black;
+    color: white;
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    border-radius: 25px;
+    padding: 16px 36px;
+    width: fit-content; 
+}
+
+
+.about-section
+{
+    background-color: #fbfaf3;
+    display:flex;
+    flex-direction: column;
+    padding: 120px 16px;
+    gap: 10px;
+    justify-content: center;
+}
+
+.aboutframe
+{
+    display: flex;
+    flex-direction: row;
+    gap: 227px;
+    width: 100%;
+}
+
+.about-us
+{
+    font-family: "Manrope", san-serif;
+    font-size: 12px;
+    padding: 5px 10px;
+    border: 1px solid;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+.rightcolumn
+{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    width:100%;
+    height: 435px;
+    justify-content: center;
+}
+
+.redflower
+{
+    width: 463px;
+    height: 435px;
+    object-fit: cover;
+}
+
+.about-txt
+{
+    font-family: "Manrope", san-serif;
+    font-size: 24px;
+}
+
+
+.services-section
+{
+    background-color: white;
+    display: flex;
+    padding: 80px 16px;
+    justify-content: center;
+}
+
+.serviceframe
+{
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    justify-content: center;
+    align-content: center;
+}
+
+.servicebox
+{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+}
+
+.service
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.servicetxt
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+h1 {
+    font-family: "Manrope", sans-serif;
+    font-size: 42px;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: "Manrope", sans-serif;
+    font-size: 24px;
+    font-weight:500;
+}
+
+h3 {
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.review-section
+{
+    background-color: #fbfaf3;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 120px 16px;
+    justify-content: center;
+}
+
+.reviewframe
+{
+    display: flex;
+    flex-direction: row;
+    gap: 227px;
+    width: 100%;
+}
+
+.reviewtxt
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+.badge
+{
+    font-family: "Manrope", sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: left;
+    border: solid 1px;
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: fit-content;
+}
+
+.reviewtxt2
+{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.quote
+{
+    font-family: "Manrope", sans-serif;
+    font-weight: normal;
+    font-size: 48px;
+}
+
+.person
+{
+    font-family: "Manrope", sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.place
+{
+    font-family: "Manrope", sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.typeguy
+{
+width: 490px;
+height: 490px;
+object-fit: cover;
+}
+
+
+.price-section
+{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 76px;
+    padding: 80px 16px;
+    justify-content: center;
+}
+
+.pricetxt
+{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+
+h5
+{
+    font-family: "Manrope", sans-serif;
+    font-size: 42px;
+    font-weight: normal;
+}
+
+h6
+{
+    font-family: "Manrope", sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.optionframe
+{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+}
+
+.option
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px 50px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+
+.optiontxt
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title
+{
+    font-family: "Manrope", sans-serif;
+    font-size: 28.8px;
+    font-weight: normal;  
+}
+
+.price
+{
+    font-family: "Manrope", sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.perks
+{
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 30px;
+}
+
+.join
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 16px 36px;
+    border-radius: 50px;
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    
+}
+
+.newsletter-section
+{
+    background-color: #ffee58;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 80px 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.news1
+{
+    font-family: "Manrope", sans-serif;
+    font-size: 42px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.news2
+{
+    font-family: "Manrope", sans-serif;
+    font-size: 28px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.enterinfo
+{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    width: 100%;
+    justify-content: center;
+}
+
+.email
+{
+    background-color: white;
+    color: #686868;
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    padding: 17px 25px;
+    border-radius: 50px;
+    text-align: left;
+    width: 352px;
+}
+
+.subbutton
+{
+    background-color: black;
+    color: white;
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    padding: 18px 36px;
+    border-radius: 50px;
+    text-align: center;
+    width: fit-content;
+}
